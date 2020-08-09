@@ -10204,6 +10204,12 @@ h3 {
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
+
+.masthead .masthead-subheading strong {
+  font-weight: bold;
+  color: #000;
+}
+
 .masthead .masthead-avatar {
   width: 15rem;
 }
