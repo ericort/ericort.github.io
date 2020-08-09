@@ -10184,7 +10184,19 @@ h3 {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
+
+
+    /* Create the parallax scrolling effect 
+    background-image: url("../assets/img/portfolio/eo_logo.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/ 
+
+
 }
+
+
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
@@ -10195,6 +10207,21 @@ h3 {
 .masthead .masthead-avatar {
   width: 15rem;
 }
+
+.masthead .masthead-heading, .masthead .masthead-subheading, .masthead .divider-custom-line {
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;  
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  
+}
+
+@keyframes example {
+  from {bottom: -20px; opacity:0;}
+  to {bottom: 0px;  opacity:1;}
+}
+
 
 @media (min-width: 992px) {
   .masthead {
@@ -10319,3 +10346,4 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
