@@ -401,6 +401,10 @@ h6, .h6 {
   color: #07889B;
 }
 
+.header-text .secondary {
+  color: #E37222;
+}
+
 .header-text :hover{
   color:#fd7e14;
 }
