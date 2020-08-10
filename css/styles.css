@@ -616,7 +616,7 @@ pre code {
     max-width: 960px;
   }
   .logo-img {
-    height:56px;
+    height:43px;
   }
 }
 @media (min-width: 1200px) {
@@ -624,7 +624,7 @@ pre code {
     max-width: 1140px;
   }
   .logo-img {
-    height:56px;
+    height:43px;
   }
 }
 .row {
@@ -10218,7 +10218,7 @@ h3 {
   position: relative;
   animation-name: example;
   animation-duration: 2s;  
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-fill-mode: both;
   
 }
