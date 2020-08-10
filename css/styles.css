@@ -10224,20 +10224,47 @@ h3 {
   width: 15rem;
 }
 
-.masthead .masthead-heading, .masthead .masthead-subheading, .masthead .divider-custom-line {
+.masthead .divider-custom-line {
   position: relative;
-  animation-name: example;
-  animation-duration: 2s;  
+  animation-name: animater3;
+  animation-duration: 4s;  
   animation-delay: 2s;
   animation-fill-mode: both;
   
 }
 
-@keyframes example {
+.masthead .masthead-subheading {
+  position: relative;
+  animation-name: animater2;
+  animation-duration: 2s;  
+  animation-delay: 3.5s;
+  animation-fill-mode: both;
+  
+}
+
+.masthead .masthead-heading {
+  position: relative;
+  animation-name: animater1;
+  animation-duration: 2s;  
+  animation-delay: 4s;
+  animation-fill-mode: both;
+  
+}
+
+@keyframes animater1 {
+  from {top: -20px; opacity:0;}
+  to {top: 0px;  opacity:1;}
+}
+
+@keyframes animater2 {
   from {bottom: -20px; opacity:0;}
   to {bottom: 0px;  opacity:1;}
 }
 
+@keyframes animater3 {
+  from {opacity:0;}
+  to {opacity:1;}
+}
 
 @media (min-width: 992px) {
   .masthead {
