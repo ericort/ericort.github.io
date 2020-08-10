@@ -598,7 +598,7 @@ pre code {
 
 .logo-img {
   height:18px;
-  margin: 0 0 4px 0;
+  margin: 0 0 3px 0;
 }
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -606,6 +606,7 @@ pre code {
   }
   .logo-img {
     height:18px;
+    margin: 0 0 3px 0;
   }
 }
 @media (min-width: 768px) {
@@ -614,6 +615,7 @@ pre code {
   }
   .logo-img {
     height:18px;
+    margin: 0 0 3px 0;
   }
 }
 @media (min-width: 992px) {
@@ -622,6 +624,7 @@ pre code {
   }
   .logo-img {
     height:24px;
+    margin: 0 0 4px 0;
   }
 }
 @media (min-width: 1200px) {
@@ -630,6 +633,7 @@ pre code {
   }
   .logo-img {
     height:24px;
+    margin: 0 0 4px 0;
   }
 }
 .row {
