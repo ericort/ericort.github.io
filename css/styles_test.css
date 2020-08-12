@@ -596,6 +596,12 @@ pre code {
   margin-left: auto;
 }
 
+.el-burger {
+    height:18px;
+    margin: 0 0 3px 0;
+  }
+
+
 .logo-img {
   height:18px;
   margin: 0 0 3px 0;
@@ -6153,7 +6159,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #fff !important;
+  background-color: #f5f4f0 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6163,7 +6169,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #fff !important;
+  background-color: #f5f4f0 !important;
 }
 
 .bg-tertiary {
@@ -10292,7 +10298,7 @@ h3 {
   }
 }
 .portfolio {
-  background: #f3f3f3;
+  background: #f5f4f0;
 }
 
 
