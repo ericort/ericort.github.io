@@ -67,7 +67,6 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
-  overflow: hidden;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10301,6 +10300,7 @@ h3 {
 }
 .portfolio {
   background: #f5f4f0;
+  overflow: hidden;
 }
 
 
