@@ -10204,6 +10204,7 @@ h3 {
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    border-bottom: solid 1px #dde0e4;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
@@ -10300,6 +10301,27 @@ h3 {
 .portfolio {
   background: #f5f4f0;
 }
+
+
+
+.portfolio .air-pic {
+    width: 600px;
+    border: 20px solid #333;
+    border-radius: 50px;
+    position: relative;
+    animation-name: animateair;
+    animation-duration: 2s;  
+    animation-delay: 4s;
+    animation-fill-mode: both;
+    
+  }
+  
+  @keyframes animateair {
+    from {left: 200px; opacity:0;}
+    to {left: 0px; opacity:1;}
+  }
+  
+
 
 
 .portfolio .portfolio-item {
