@@ -596,17 +596,40 @@ pre code {
   margin-left: auto;
 }
 
+.portfolio .air-wrapper {
+    position: relative;
+    height: 225px;
+}
+
+.portfolio .air-wrapper .air-pic,  .portfolio .air-wrapper .air-pic-mobile {
+  position: absolute;
+}
+
+.portfolio .air-wrapper .air-pic-mobile {
+ /* width: 200px;*/
+  top: 70px;
+  left: 0px;
+}
+
+
 
 .portfolio .air-pic {
-    width: 600px;
-    border: 20px solid #333;
-    border-radius: 50px;
-    position: relative;
+    width: 400px;
+    border: 10px solid #333;
+    border-radius: 30px;
+    left: 30px;
     /*animation-name: animateair;
     animation-duration: 2s;  
     animation-delay: 1s;
     animation-fill-mode: both;*/
-    
+  }
+
+  
+
+  .portfolio .air-pic-mobile {
+    width: 100px;
+    border: 4px solid #333;
+    border-radius: 15px;
   }
   
   /*@keyframes animateair {
@@ -641,6 +664,11 @@ pre code {
       border: 14px solid #333;
       border-radius: 30px;
   }
+  .portfolio .air-pic-mobile {
+    width: 100px;
+    border: 4px solid #333;
+    border-radius: 15px;
+  }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
@@ -655,7 +683,14 @@ pre code {
   }
   .portfolio .air-pic {
     width: 500px;
-}
+    border: 14px solid #333;
+    border-radius: 30px;
+    }
+.portfolio .air-pic-mobile {
+    width: 125px;
+    border: 6px solid #333;
+    border-radius: 20px;
+  } 
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
@@ -667,6 +702,11 @@ pre code {
   }
   .header-text {
     padding-left: 8px;
+  }
+  .portfolio .air-pic-mobile {
+    width: 125px;
+    border: 6px solid #333;
+    border-radius: 20px;
   }
 }
 @media (min-width: 1200px) {
@@ -680,7 +720,13 @@ pre code {
   .header-text {
     padding-left: 8px;
   }
+  .portfolio .air-pic-mobile {
+    width: 125px;
+    border: 6px solid #333;
+    border-radius: 20px;
+  }
 }
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -10259,7 +10305,7 @@ h3 {
 
 .masthead .masthead-avatar {
   width: 15rem;
-  overflow: hidden;
+  overflow: auto;
 }
 
 
