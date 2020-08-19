@@ -602,17 +602,17 @@ pre code {
     border: 20px solid #333;
     border-radius: 50px;
     position: relative;
-    animation-name: animateair;
+    /*animation-name: animateair;
     animation-duration: 2s;  
-    animation-delay: 4s;
-    animation-fill-mode: both;
+    animation-delay: 1s;
+    animation-fill-mode: both;*/
     
   }
   
-  @keyframes animateair {
+  /*@keyframes animateair {
     from {left: 200px; opacity:0;}
     to {left: 0px; opacity:1;}
-  }
+  }*/
   
 
 .el-burger {
@@ -10241,15 +10241,6 @@ h3 {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
 
-
-    /* Create the parallax scrolling effect 
-    background-image: url("../assets/img/portfolio/eo_logo.png");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/ 
-
-
 }
 
 
@@ -10268,49 +10259,9 @@ h3 {
 
 .masthead .masthead-avatar {
   width: 15rem;
+  overflow: hidden;
 }
 
-.masthead .divider-custom-line {
-  position: relative;
-  animation-name: animater3;
-  animation-duration: 4s;  
-  animation-delay: 2s;
-  animation-fill-mode: both;
-  
-}
-
-.masthead .masthead-subheading {
-  position: relative;
-  animation-name: animater2;
-  animation-duration: 2s;  
-  animation-delay: 3.5s;
-  animation-fill-mode: both;
-  
-}
-
-.masthead .masthead-heading {
-  position: relative;
-  animation-name: animater1;
-  animation-duration: 2s;  
-  animation-delay: 4s;
-  animation-fill-mode: both;
-  
-}
-
-@keyframes animater1 {
-  from {top: -20px; opacity:0;}
-  to {top: 0px;  opacity:1;}
-}
-
-@keyframes animater2 {
-  from {bottom: -20px; opacity:0;}
-  to {bottom: 0px;  opacity:1;}
-}
-
-@keyframes animater3 {
-  from {opacity:0;}
-  to {opacity:1;}
-}
 
 @media (min-width: 992px) {
   .masthead {
