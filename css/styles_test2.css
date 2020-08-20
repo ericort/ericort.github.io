@@ -615,8 +615,8 @@ pre code {
 
 .portfolio .air-pic {
     width: 400px;
-    border: 10px solid #333;
-    border-radius: 30px;
+    border: 4px solid #333;
+    border-radius: 15px;
     left: 30px;
     /*animation-name: animateair;
     animation-duration: 2s;  
@@ -661,8 +661,8 @@ pre code {
   }
   .portfolio .air-pic {
       width: 400px;
-      border: 14px solid #333;
-      border-radius: 30px;
+      border: 4px solid #333;
+      border-radius: 15px;
   }
   .portfolio .air-pic-mobile {
     width: 100px;
@@ -683,8 +683,8 @@ pre code {
   }
   .portfolio .air-pic {
     width: 500px;
-    border: 14px solid #333;
-    border-radius: 30px;
+    border: 6px solid #333;
+    border-radius: 20px;
     }
 .portfolio .air-pic-mobile {
     width: 125px;
@@ -703,6 +703,13 @@ pre code {
   .header-text {
     padding-left: 8px;
   }
+
+  .portfolio .air-pic {
+    width: 500px;
+    border: 6px solid #333;
+    border-radius: 20px;
+    }
+
   .portfolio .air-pic-mobile {
     width: 125px;
     border: 6px solid #333;
@@ -720,6 +727,12 @@ pre code {
   .header-text {
     padding-left: 8px;
   }
+
+  .portfolio .air-pic {
+    width: 500px;
+    border: 6px solid #333;
+    border-radius: 20px;
+    }
   .portfolio .air-pic-mobile {
     width: 125px;
     border: 6px solid #333;
