@@ -605,9 +605,9 @@ pre code {
   position: absolute;
 }
 
-.portfolio .air-wrapper .air-pic-mobile {
+.portfolio .air-pic-mobile {
  /* width: 200px;*/
-  top: 70px;
+  top: 60px;
   left: 0px;
 }
 
@@ -668,6 +668,7 @@ pre code {
     width: 100px;
     border: 4px solid #333;
     border-radius: 15px;
+    top: 60px;
   }
 }
 @media (min-width: 768px) {
@@ -690,6 +691,7 @@ pre code {
     width: 125px;
     border: 6px solid #333;
     border-radius: 20px;
+    top:80px;
   } 
 }
 @media (min-width: 992px) {
@@ -714,6 +716,7 @@ pre code {
     width: 125px;
     border: 6px solid #333;
     border-radius: 20px;
+    top:80px;
   }
 }
 @media (min-width: 1200px) {
@@ -737,6 +740,7 @@ pre code {
     width: 125px;
     border: 6px solid #333;
     border-radius: 20px;
+    top:80px;
   }
 }
 
