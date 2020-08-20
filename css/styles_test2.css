@@ -10245,7 +10245,8 @@ h3 {
   color: #7C7B7B;
 }
 #mainNav .navbar-nav {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size:1.25rem;
   margin-top: 1rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
