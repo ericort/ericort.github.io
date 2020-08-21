@@ -10331,6 +10331,7 @@ h3 {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
+  overflow: hidden;
 
 }
 
@@ -10349,8 +10350,12 @@ h3 {
 }
 
 .masthead .masthead-avatar {
-  width: 170px;
+  width: 250px;
   overflow: hidden;
+  border: 10px solid #fff;
+  border-bottom: 30px solid #fff;
+  box-shadow: 1px 2px 1px #aaa;
+  transform: rotate(4deg);
 }
 
 
