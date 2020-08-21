@@ -649,7 +649,7 @@ pre code {
     animation-duration: 2s;  
     animation-delay: 3s;
     animation-fill-mode: both;
-    box-shadow: 0 1px 5px #aaa;
+    
 }
 
 @keyframes animateaddsub {
