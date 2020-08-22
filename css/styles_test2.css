@@ -10352,6 +10352,13 @@ h3 {
 }
 
 
+@media screen and (min-width: 576px) {
+    #masthead {
+        margin-top:50px; 
+    }
+}
+
+
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
