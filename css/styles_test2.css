@@ -84,6 +84,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
+
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -10191,6 +10193,53 @@ h3 {
   font-size: 2.25rem;
   line-height: 2rem;
 }
+
+.sec-quote{
+    background-color: #07889B;
+  }
+
+.sec-problem {
+    background-color: #054d5a;
+    color:#fff;
+    
+  }
+
+.sec-problem h3 {
+    color: #fbf6ab;
+    font-size: 3rem;
+}
+
+  .sec-problem .container {
+    font-size: 1.25rem;
+  }
+
+  .sec-phase {
+    background-color: #e9e8e4;
+    font-size: 1.25rem;
+  }
+
+  .phase-text-lg {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: #333;
+}
+
+.quote-text-lg {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    color: #fff;
+}
+
+.quote-text-ref {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: #fbf6ab;
+}
+
+
 @media (min-width: 992px) {
   .page-section .page-section-heading {
     font-size: 3rem;
