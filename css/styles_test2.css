@@ -166,8 +166,9 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #117964;
+  color: #066c7c;
   text-decoration: underline;
+
 }
 
 a:not([href]) {
@@ -608,7 +609,7 @@ pre code {
 
 
 .portfolio .air-pic {
-    width: 400px;
+    width: 300px;
     border: 4px solid #333;
     border-radius: 15px;
     left: 30px;
@@ -633,7 +634,7 @@ pre code {
   .portfolio .air-pic-mobile {
     top: 60px;
     left: 0px;
-    width: 100px;
+    width: 75px;
     border: 4px solid #333;
     border-radius: 15px;
     animation-name: animateairmobile;
@@ -650,7 +651,8 @@ pre code {
 
 
 .addsub-pic {
-    left: 0px;
+    position: absolute;
+    left:30px;
     width: 400px;
     animation-name: animateaddsub;
     animation-duration: 2s;  
@@ -667,7 +669,7 @@ pre code {
   
 .hero-pic {
     position: relative;
-    width:450px;
+    width:320px;
 
 }
 
@@ -691,20 +693,18 @@ pre code {
   }
 
   .portfolio .air-pic {
-      width: 400px;
+      width: 300px;
       border: 4px solid #333;
       border-radius: 15px;
   }
   .portfolio .air-pic-mobile {
-    width: 100px;
+    width: 75px;
     border: 4px solid #333;
     border-radius: 15px;
     top: 60px;
   }
 
-  .hero-pic {
-      width:450px;
-  }
+ 
   .portfolio .air-wrapper {
     height: 290px;
 }
@@ -10249,7 +10249,7 @@ h3 {
   }
 
 .sec-problem h3 {
-    color: #fbf6ab;
+    color: #bbb;
     font-size: 3rem;
 }
 
