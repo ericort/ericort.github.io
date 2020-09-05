@@ -226,6 +226,10 @@ button.bg-primary:focus {
     color: #333 !important;
 }
 
+.text-grey-light {
+    color: #bbb !important;
+}
+
 .text-primary {
     color: #07889B !important;
 }
@@ -266,7 +270,7 @@ button.bg-primary:focus {
     font-size: 1.25rem;
     font-weight: bold;
     letter-spacing: 1.5px;
-    color: #fbf6ab;
+    color: #fff460;
 }
 
 .divider-custom .divider-custom-line {
@@ -470,7 +474,6 @@ button.bg-primary:focus {
 }
 
 .sec-problem h3 {
-    color: #bbb;
     font-size: 3rem;
 }
 
