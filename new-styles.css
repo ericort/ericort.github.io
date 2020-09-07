@@ -456,6 +456,7 @@ button.bg-primary:focus {
 .air-container .air-pic-mobile {
     position: absolute;
     width: 75px;
+    top: 54px;
 }
 
 .hero-pic {
