@@ -33,7 +33,7 @@ h6,
 }
 
 h1 {
-    color: #07889B;
+    color: #323232;
 }
 
 h2,
@@ -218,6 +218,10 @@ button.bg-primary:focus {
     background-color: #07889B !important;
 }
 
+.bg-air-top {
+    background-color: #e9e8e4 !important;
+}
+
 .border-primary {
     border-color: #07889B !important;
 }
@@ -227,7 +231,7 @@ button.bg-primary:focus {
 }
 
 .text-grey-light {
-    color: #bbb !important;
+    color: #999 !important;
 }
 
 .text-primary {
@@ -270,7 +274,7 @@ button.bg-primary:focus {
     font-size: 1.25rem;
     font-weight: bold;
     letter-spacing: 1.5px;
-    color: #fff460;
+    color: #EEE8A9;
 }
 
 .divider-custom .divider-custom-line {
@@ -320,6 +324,10 @@ button.bg-primary:focus {
     overflow: hidden;
 }
 
+.masthead .masthead-heading {
+    font-size: 2.2em;
+}
+
 .masthead .masthead-subheading strong {
     font-weight: bold;
     color: #000;
@@ -329,7 +337,7 @@ button.bg-primary:focus {
     width: 250px;
     overflow: hidden;
     border-radius: 50%;
-    border: 10px solid #07889B;
+    border: 6px solid #07889B;
     /*border-bottom: 45px solid #fff;*/
     /*box-shadow: 1px 2px 1px #aaa;*/
     /*box-shadow: 0px 1px 2px #aaa;
@@ -340,6 +348,10 @@ button.bg-primary:focus {
     background: #e9e8e4;
     overflow: hidden;
     font-size: 1.25rem;
+}
+
+.portfolio h3 {
+    font-size: 1.8em;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -466,11 +478,11 @@ button.bg-primary:focus {
 }
 
 .sec-quote {
-    background-color: #07889B;
+    background-color: #324B50;
 }
 
 .sec-problem {
-    background-color: #054d5a;
+    background-color: #002A3B;
     color: #fff;
 }
 
@@ -479,7 +491,7 @@ button.bg-primary:focus {
 }
 
 .sec-problem .container {
-    font-size: 1.25rem;
+    x font-size: 1.25rem;
 }
 
 .sec-phase {
@@ -499,7 +511,7 @@ button.bg-primary:focus {
 
 @media (min-width: 576px) {
     #masthead {
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .logo-img {
         height: 18px;
