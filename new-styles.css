@@ -325,7 +325,7 @@ button.bg-primary:focus {
 }
 
 .masthead .masthead-heading {
-    font-size: 2.25em;
+    font-size: 1.75em;
     font-family: "Arial", sans-serif;
     font-weight: 500;
 }
@@ -550,6 +550,9 @@ hr.hr-text::before {
 @media (min-width: 576px) {
     #masthead {
         margin-top: 30px;
+    }
+    .masthead .masthead-heading {
+        font-size: 2.25em;
     }
     .logo-img {
         height: 18px;
