@@ -328,7 +328,8 @@ button.bg-primary:focus {
 
 .masthead .masthead-heading {
     font-size: 1.75em;
-    font-family: "Arial", sans-serif;
+    font-family: "Mercury Display", serif;
+    font-style: italic;
     font-weight: 500;
 }
 
@@ -357,7 +358,6 @@ button.bg-primary:focus {
     background: #f5f4f0;
     border-radius: 50%;
     margin: 0 auto;
-    margin-bottom: 50px;
 }
 
 .portfolio {
@@ -559,58 +559,66 @@ hr.hr-text::before {
     .masthead .masthead-heading {
         font-size: 2.25em;
     }
-    .photo-main {
+    /* .photo-main {
         height: 280px;
         width: 280px;
     }
     .masthead .masthead-avatar {
         height: 235px;
-        width: 235px;
-    }
-    .logo-img {
-        height: 18px;
-        margin: 0 0 3px 0;
-    }
-    .portfolio .air-pic,
-    .air-container .air-pic {
-        width: 400px;
-        border: 4px solid #333;
-        border-radius: 15px;
-    }
-    .portfolio .air-pic-mobile,
-    .air-container .air-pic-mobile {
-        width: 100px;
-        border: 4px solid #333;
-        border-radius: 15px;
-        top: 60px;
-    }
-    .portfolio .air-wrapper {
-        height: 290px;
-    }
-    .air-container .masthead {
-        height: 557px;
-    }
-    .hero-pic {
-        position: relative;
-        width: 440px;
-        margin: auto;
-    }
+        width: 235px;*/
+}
+
+.logo-img {
+    height: 18px;
+    margin: 0 0 3px 0;
+}
+
+.portfolio .air-pic,
+.air-container .air-pic {
+    width: 400px;
+    border: 4px solid #333;
+    border-radius: 15px;
+}
+
+.portfolio .air-pic-mobile,
+.air-container .air-pic-mobile {
+    width: 100px;
+    border: 4px solid #333;
+    border-radius: 15px;
+    top: 60px;
+}
+
+.portfolio .air-wrapper {
+    height: 290px;
+}
+
+.air-container .masthead {
+    height: 557px;
+}
+
+.hero-pic {
+    position: relative;
+    width: 440px;
+    margin: auto;
 }
 
 
-/***** 768 *****/
+}
 
+/***** 768 *****/
 @media (min-width: 768px) {
     .logo-img {
         height: 18px;
         margin: 0 0 3px 0;
     }
+    
     .portfolio .air-pic,
     .air-container .air-pic {
         width: 500px;
         border: 3px solid #333;
         border-radius: 20px;
     }
+    
     .portfolio .air-pic-mobile,
     .air-container .air-pic-mobile {
         width: 125px;
@@ -618,43 +626,49 @@ hr.hr-text::before {
         border-radius: 20px;
         top: 80px;
     }
+    
     .hero-pic {
         width: 525px;
     }
+    
     .portfolio .air-wrapper {
         height: 350px;
     }
+    
     .portfolio .addsub-pic {
         width: 500px;
     }
+    
     .air-container .masthead {
         height: 573px;
     }
 }
 
-
 /***** 992 *****/
-
 @media (min-width: 992px) {
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
         color: #07889B;
         background: #f5f4f0;
     }
+    
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
         color: #07889B;
         background: #f5f4f0;
     }
+    
     #mainNav.navbar-shrink {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         /*border-bottom: solid 1px #dde0e4;*/
     }
+    
     .logo-img {
         height: 22px;
         margin: 0 0 4px 0;
     }
+    
     .air-container .masthead {
         height: 597px;
     }
@@ -678,25 +692,26 @@ hr.hr-text::before {
     */
 }
 
-
 /***** 1200 *****/
-
 @media (min-width: 1200px) {
     .logo-img {
         height: 22px;
         margin: 0 0 4px 0;
     }
+    
     .portfolio .air-pic {
         width: 500px;
         border: 6px solid #333;
         border-radius: 20px;
     }
+    
     .portfolio .air-pic-mobile {
         width: 125px;
         border: 6px solid #333;
         border-radius: 20px;
         top: 80px;
     }
+    
     .portfolio .air-wrapper {
         height: 300px;
     }
