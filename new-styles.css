@@ -327,7 +327,7 @@ button.bg-primary:focus {
 }
 
 .masthead .masthead-heading {
-    font-size: 1.75em;
+    font-size: 1.25em;
     font-family: "Arial", sans-serif;
     font-weight: 500;
 }
@@ -338,7 +338,8 @@ button.bg-primary:focus {
 }
 
 .masthead .masthead-avatar {
-    width: 250px;
+    width: 150px;
+    height: 150px;
     overflow: hidden;
     border-radius: 50%;
     border: 6px solid #fff;
@@ -351,8 +352,8 @@ button.bg-primary:focus {
 .photo-main {
     border: 22px solid #e0dfdb;
     position: relative;
-    height: 280px;
-    width: 280px;
+    height: 195px;
+    width: 195px;
     background: #f5f4f0;
     border-radius: 50%;
     margin: 0 auto;
@@ -360,7 +361,7 @@ button.bg-primary:focus {
 }
 
 .portfolio {
-    background: #e9e8e4;
+    background: #fff;
     overflow: hidden;
     font-size: 1.25rem;
 }
@@ -558,6 +559,14 @@ hr.hr-text::before {
     .masthead .masthead-heading {
         font-size: 2.25em;
     }
+    .photo-main {
+        height: 280px;
+        width: 280px;
+    }
+    .masthead .masthead-avatar {
+        height: 235px;
+        width: 235px;
+    }
     .logo-img {
         height: 18px;
         margin: 0 0 3px 0;
@@ -599,7 +608,7 @@ hr.hr-text::before {
     .portfolio .air-pic,
     .air-container .air-pic {
         width: 500px;
-        border: 6px solid #333;
+        border: 3px solid #333;
         border-radius: 20px;
     }
     .portfolio .air-pic-mobile,
