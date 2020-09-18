@@ -339,8 +339,8 @@ button.bg-primary:focus {
 }
 
 .masthead .masthead-avatar {
-    width: 150px;
-    height: 150px;
+    width: 165px;
+    height: 165x;
     overflow: hidden;
     border-radius: 50%;
     border: 6px solid #fff;
@@ -351,7 +351,7 @@ button.bg-primary:focus {
 }
 
 .photo-main {
-    border: 22px solid #e0dfdb;
+    border: 16px solid #e0dfdb;
     position: relative;
     height: 195px;
     width: 195px;
