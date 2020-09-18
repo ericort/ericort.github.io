@@ -1,0 +1,251 @@
+html {
+	box-sizing:border-box;
+}
+
+body {
+	color:#424951;
+	text-align:center;
+}
+
+strong {
+	font-weight:600;
+}
+
+em {
+	font-style:italic;
+}
+
+a {
+	color:#1e91c1;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#086b94;
+}
+
+h1, h3, .paragraph-text {
+	font-family:"Mercury Display", Times, serif;
+}
+
+h1 {
+	font-size:50px;
+	font-weight:600;
+	font-style:italic;
+	line-height:50px;
+}
+
+.break {
+	display:block;
+}
+
+h1 span {
+	font-size:45px;
+	font-style:normal;
+	margin-top:15px;
+}
+
+h2 {
+	font-family:"Gotham", Arial, sans-serif;
+	font-size:30px;
+	text-transform:uppercase;
+	margin-bottom:75px;
+}
+
+h3 {
+	font-size:40px;
+	font-weight:600;
+	margin-bottom:25px;
+}
+
+li {
+	font-family:"Gotham", Arial, sans-serif;
+	font-size:20px;
+	line-height:25px;
+}
+
+.questions h3 {
+	font-size:30px;
+	line-height:40px;
+	font-weight:700;
+	margin:0 auto;
+	margin-bottom:15px;
+	width:65%;
+	text-align:center;
+
+}
+
+.paragraph-text {
+	font-size:30px;
+	line-height:40px;
+	margin-bottom:100px;
+	width:65%;
+	margin:0 auto;
+}
+
+.section {
+	padding:100px 0;
+	clear:both;
+	position:relative;
+}
+
+.intro, .i-believe, .i-make, .questions {
+	background:#f2f3f3;
+}
+
+.emphasis-line {
+	margin-top:60px;
+}
+
+.subline, .and {
+	font-style:italic;
+	font-weight:normal;
+	font-family:"Mercury Display", Times, serif;
+	font-size:30px;
+	text-transform:none;
+	margin-top:15px;
+}
+
+.i-believe .subline {
+	padding-left:25px;
+}
+
+.and {
+	position:absolute;
+	top:290px;
+	left:50%;
+	margin-left:-25px;
+}
+
+.photo {
+	position:relative;
+	height:180px;
+	width:180px;
+	background:#e0dedc;
+	border-radius:50%;
+	margin:0 auto;
+	margin-bottom:50px;
+}
+
+.photo-image {
+	position:absolute;
+	height:150px;
+	width:150px;
+	background:url(../images/photo.png) no-repeat;
+	background-size:100%;
+	border:3px solid #fff;
+	border-radius:50%;
+	top:12px;
+	left:12px;
+}
+
+.example {
+	width:70%;
+	margin:0 auto;
+	text-align:left;
+	margin-bottom:100px;
+}
+
+.description-text {
+	font-family:"Gotham Narrow", Arial, sans-serif;
+	font-weight:100;
+	font-size:18px;
+	line-height:26px;
+}
+
+ul:after { /* fix to clear float */
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.i-am ul {
+
+}
+
+.i-am li {
+	width:33%;
+	float:left;
+}
+
+.i-believe ul {
+
+}
+
+.i-believe li {
+	width:50%;
+	float:left;
+}
+
+.icon {
+	height:100px;
+	width:100px;
+	border-radius:50%;
+	margin:0 auto;
+	margin-bottom:25px;
+}
+
+.beaker, .shield {
+	height:150px;
+	width:150px;
+	border:3px solid #144a6e;
+}
+
+.baby-bottle {
+	background:#144a6e url(../images/icon-baby-bottle.svg) no-repeat;
+}
+.book {
+	background:#144a6e url(../images/icon-book.svg) no-repeat 0px 3px;
+}
+
+.pen-pencil {
+	background:#144a6e url(../images/icon-pen-pencil.svg) no-repeat;
+}
+
+.beaker {
+	background:url(../images/icon-beaker.svg) no-repeat;
+}
+.shield {
+	background:url(../images/icon-shield.svg) no-repeat;
+}
+
+.questions .paragraph-text {
+	font-size:25px;
+	line-height:35px;
+	margin-bottom:100px;
+}
+
+.example img {
+	width:100%;
+	margin-bottom:25px;
+}
+
+.example a img {
+	border:1px solid transparent;
+	transition:all .3s ease;
+}
+
+.example a:hover img {
+	border:1px solid #1e91c1;
+	box-shadow:0px 0px 5px #1e91c1;
+	transition:all .3s ease;
+}
+
+.signature {
+	font-family:"Euphoria Script", cursive;
+	font-size:75px;
+	margin-top:50px;
+}
+
+.post-script {
+	font-size:25px;
+	margin:0 auto;
+	margin-bottom:150px;
+}
+
+.post-script a {
+	display:block;
+}
