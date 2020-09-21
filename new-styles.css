@@ -343,7 +343,7 @@ button.bg-primary:focus {
     height: 165x;
     overflow: hidden;
     border-radius: 50%;
-    border: 6px solid #fff;
+    border: 5px solid #fff;
     /*border-bottom: 45px solid #fff;*/
     /*box-shadow: 1px 2px 1px #aaa;*/
     /*box-shadow: 0px 1px 2px #aaa;
@@ -389,7 +389,7 @@ button.bg-primary:focus {
 
 .portfolio .air-wrapper {
     position: relative;
-    height: 340px;
+    height: 280px;
 }
 
 .portfolio .air-wrapper .air-pic,
@@ -587,9 +587,9 @@ hr.hr-text::before {
         border-radius: 15px;
         top: 60px;
     }
-    .portfolio .air-wrapper {
-        height: 290px;
-    }
+    /*.portfolio .air-wrapper {
+        height: 280px;
+    }*/
     .air-container .masthead {
         height: 557px;
     }
@@ -611,7 +611,7 @@ hr.hr-text::before {
     .portfolio .air-pic,
     .air-container .air-pic {
         width: 500px;
-        border: 3px solid #333;
+        border: 6px solid #333;
         border-radius: 20px;
     }
     .portfolio .air-pic-mobile,
@@ -625,7 +625,7 @@ hr.hr-text::before {
         width: 525px;
     }
     .portfolio .air-wrapper {
-        height: 350px;
+        height: 338px;
     }
     .portfolio .addsub-pic {
         width: 500px;
@@ -700,7 +700,7 @@ hr.hr-text::before {
         border-radius: 20px;
         top: 80px;
     }
-    .portfolio .air-wrapper {
+    /*.portfolio .air-wrapper {
         height: 300px;
-    }
+    }*/
 }
