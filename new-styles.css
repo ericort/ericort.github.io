@@ -322,8 +322,8 @@ button.bg-primary:focus {
 
 .masthead {
     overflow: hidden;
-    padding-top: calc(3rem + 74px);
-    padding-bottom: 3rem;
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
 }
 
 .masthead .masthead-heading {
@@ -556,7 +556,6 @@ hr.hr-text::before {
 
 @media (min-width: 576px) {
     .masthead {
-        margin-top: 30px;
         padding-top: calc(6rem + 74px);
         padding-bottom: 6rem;
     }
