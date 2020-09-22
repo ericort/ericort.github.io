@@ -323,7 +323,7 @@ button.bg-primary:focus {
 .masthead {
     overflow: hidden;
     padding-top: calc(3rem + 74px);
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
 }
 
 .masthead .masthead-heading {
