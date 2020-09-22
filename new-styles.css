@@ -350,6 +350,10 @@ button.bg-primary:focus {
     transform: rotate(3deg);*/
 }
 
+.border-top {
+    border-top: 0.1rem solid #e0dfdb !important;
+}
+
 .photo-main {
     border: 16px solid #e0dfdb;
     position: relative;
