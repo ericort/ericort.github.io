@@ -14,9 +14,12 @@
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Animation CSS-->
+
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles-original.css" rel="stylesheet" />
     <link href="new-styles.css" rel="stylesheet" />
+
 </head>
 
 <body id="page-top" class="bg-primary">
@@ -51,7 +54,7 @@
                         <img class="masthead-avatar mb-0 w-100" src="assets/img/portfolio/eric-portrait.png" alt="Photo of Eric" />
                     </div>
                 </div>
-                <div class="mb-4 text-center" id="masthead">
+                <div class="mb-4 mb-sm-0 text-center" id="masthead">
                     <!--Masthead Heading-->
                     <h1 class="masthead-heading mb-4">Hello, I'm Eric </h1>
                     <!-- Masthead Subheading-->
@@ -76,24 +79,25 @@
             <div class="divider-custom divider-light">
             </div>
             <!-- Portfolio Grid Items-->
-            <div class="row mb-5">
+            <div class="row mb-5 pt-5 border-top">
                 <!-- Portfolio Item 1-->
-                <div class="col-md-6 order-md-2">
+                <div class="col-md-6 mb-3 order-md-2">
                     <div class="air-wrapper ">
                         <img src="assets/img/portfolio/quoteResults_boxes.png" class="air-pic mx-auto d-block" />
                         <img src="assets/img/portfolio/quoteResults_boxes_mobile.png" class="air-pic-mobile mx-auto d-block" />
                     </div>
                 </div>
-                <div class="col-md-6 mb-5">
+                <div class="col-md-6">
                     <h3 class="mb-3">Auto Insurance Quote Redesign</h3>
                     <p class="mb-3">I led a effort that explored ways to improve the buying experience for a Fortune 100 Company's flagship product.</p>
-                    <button type="button" class="btn btn-outline-primary ">
-                        
-                        See Case Study 
-                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-right-fill mb-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-                          </svg>
-                    </button>
+                    <div class="pt-3">
+                        <button type="button" class="btn btn-outline-primary ">      
+                            See Case Study 
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-right-fill mb-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </div>
 
@@ -102,23 +106,24 @@
 
 
 
-            <div class="row mb-5 pt-md-5">
+            <div class="row pt-5 border-top">
                 <!-- Portfolio Item 2-->
                 <div class="col-md-6 mb-3 order-md-2">
                     <div class="air-wrapper ">
                         <img src="assets/img/portfolio/car_pic2.png" class="addsub-pic" width="500" />
                     </div>
                 </div>
-                <div class="col-md-6 mb-3">
-                    <h3>Adding or Replacing a Vehicle</h3>
-                    <p>Simplified the experience from five pages to three questions. How is it possible?</p>
-                    <button type="button" class="btn btn-outline-primary mb-4">
-                        
-                        See Case Study 
-                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-right-fill mb-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-                          </svg>
-                    </button>
+                <div class="col-md-6">
+                    <h3 class="mb-3">Adding or Replacing a Vehicle</h3>
+                    <p class="mb-3">Simplified the experience from five pages to three questions. How is it possible?</p>
+                    <div class="pt-3">
+                        <button type="button" class="btn btn-outline-primary">   
+                            See Case Study 
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-right-fill mb-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                        </button>
+                    </div>
 
                 </div>
 
@@ -127,10 +132,10 @@
             </div>
     </section>
     <!-- About Section-->
-    <section class="page-section bg-tertiary  mb-0" id="about">
-        <div class="container">
+    <section class="page-section bg-tertiary mb-0" id="about">
+        <div class="container scroll-animations">
             <!-- About Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-tertiary mb-0">About</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-tertiary mb-0 animated">About</h2>
             <!-- Icon Divider-->
             <div class="divider-custom divider-light">
                 <!--div class="divider-custom-line"></div>
@@ -235,6 +240,9 @@
     <script src="assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+
+
+
 </body>
 
 </html>
