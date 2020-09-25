@@ -15,6 +15,12 @@ a {
     color: #07889B;
 }
 
+strong {
+    font-weight: 600;
+    color: #3e3e3e;
+    font-size: 1.35rem;
+}
+
 a:hover {
     color: #066c7c;
 }
@@ -422,6 +428,7 @@ button.bg-primary:focus {
 
 #mainNav.navbar-shrink {
     background-color: #fff !important;
+    transition: background-color 0.3s;
     /*border-bottom: 0.05rem solid #e0dfdb;*/
 }
 
@@ -525,7 +532,7 @@ hr.hr-text::before {
 *****************/
 
 .air-container .masthead {
-    height: 495px;
+    height: 550px;
 }
 
 .air-container .air-pic {
@@ -594,7 +601,7 @@ hr.hr-text::before {
         top: 60px;
     }
     .air-container .masthead {
-        height: 557px;
+        height: 615px;
     }
     .hero-pic {
         position: relative;
@@ -630,7 +637,7 @@ hr.hr-text::before {
         width: 530px;
     }
     .air-container .masthead {
-        height: 573px;
+        height: 650px;
     }
 }
 
@@ -650,9 +657,13 @@ hr.hr-text::before {
         background: transparent;
         text-decoration: underline;
     }
+    #mainNav .navbar-brand {
+        font-size: 1.75rem;
+    }
     #mainNav.navbar-shrink {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
+        font-size: 1rem;
     }
     .masthead {
         padding-top: calc(6rem + 74px);
@@ -666,7 +677,7 @@ hr.hr-text::before {
         margin: 0 0 4px 0;
     }
     .air-container .masthead {
-        height: 597px;
+        height: 700px;
     }
 }
 
