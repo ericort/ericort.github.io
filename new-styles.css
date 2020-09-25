@@ -438,7 +438,7 @@ button.bg-primary:focus {
     left: 30px;
     animation-name: animateair;
     animation-duration: 2s;
-    animation-delay: 1s;
+    animation-delay: 2s;
     animation-fill-mode: both;
 }
 
@@ -462,7 +462,7 @@ button.bg-primary:focus {
     border-radius: 15px;
     animation-name: animateairmobile;
     animation-duration: 2s;
-    animation-delay: 0s;
+    animation-delay: 1s;
     animation-fill-mode: both;
     box-shadow: 0 1px 3px #aaa;
 }
