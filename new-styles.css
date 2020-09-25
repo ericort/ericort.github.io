@@ -211,6 +211,10 @@ a.badge-primary:focus {
     background-color: #f5f4f0 !important;
 }
 
+.bg-white {
+    background-color: #fff;
+}
+
 a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
@@ -414,6 +418,11 @@ button.bg-primary:focus {
     border: .125rem solid #07889B;
     border-radius: .5rem;
     transform: scale(1.03);
+}
+
+#mainNav.navbar-shrink {
+    background-color: #fff !important;
+    /*border-bottom: 0.05rem solid #e0dfdb;*/
 }
 
 
@@ -632,13 +641,15 @@ hr.hr-text::before {
 @media (min-width: 992px) {
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
         color: #07889B;
-        background: #f5f4f0;
+        background: transparent;
+        text-decoration: underline;
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
         color: #07889B;
-        background: #f5f4f0;
+        background: transparent;
+        text-decoration: underline;
     }
     #mainNav.navbar-shrink {
         padding-top: 0.5rem;
