@@ -8,6 +8,7 @@ body {
     line-height: 1.75;
     letter-spacing: 0.005em;
     font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.25rem;
 }
 
 a {
@@ -36,7 +37,8 @@ h6,
 }
 
 h1 {
-    color: #38404F;
+    color: #585b61;
+    font-family: "Source Serif Pro", serif;
 }
 
 h2,
@@ -231,7 +233,7 @@ button.bg-primary:focus {
 }
 
 .bg-air-top {
-    background-color: #e9e8e4 !important;
+    background-color: #f5f4f0 !important;
 }
 
 .border-primary {
@@ -264,13 +266,13 @@ button.bg-primary:focus {
 }
 
 .phase-text-lg {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Source Serif Pro", serif;
     font-size: 3rem;
     color: #333;
 }
 
 .quote-text-lg {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Source Serif Pro", serif;
     font-size: 3rem;
     font-style: italic;
     color: #fff;
@@ -336,9 +338,7 @@ button.bg-primary:focus {
 
 .masthead .masthead-heading {
     font-size: 3em;
-    font-family: "Source Serif Pro", serif;
     font-weight: 600;
-    color: #585b61;
 }
 
 .masthead .masthead-subheading strong {
@@ -563,7 +563,6 @@ hr.hr-text::before {
 }
 
 .sec-phase {
-    background-color: #e9e8e4;
     font-size: 1.25rem;
 }
 
