@@ -343,7 +343,7 @@ button.bg-primary:focus {
 }
 
 .masthead .masthead-heading {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 600;
 }
 
@@ -670,7 +670,7 @@ hr.hr-text::before {
         padding-bottom: 6rem;
     }
     .masthead .masthead-heading {
-        font-size: 3.75em;
+        font-size: 2.5em;
     }
     .logo-img {
         height: 22px;
