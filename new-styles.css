@@ -67,7 +67,7 @@ h2,
 }
 
 .logo-img {
-    height: 18px;
+    height: 21px;
     margin: 0 0 3px 0;
 }
 
@@ -673,7 +673,7 @@ hr.hr-text::before {
         font-size: 2.5em;
     }
     .logo-img {
-        height: 22px;
+        height: 25px;
         margin: 0 0 4px 0;
     }
     .air-container .masthead {
