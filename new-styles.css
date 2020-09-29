@@ -234,12 +234,12 @@ button.bg-primary:focus {
     background-color: #f5f4f0 !important;
 }
 
-.bg-tertiary {
-    background-color: #07889B !important;
+.air-container .bg-secondary {
+    background-color: #e8faf7 !important;
 }
 
-.bg-air-top {
-    background-color: #f5f4f0 !important;
+.bg-tertiary {
+    background-color: #07889B !important;
 }
 
 .border-primary {
