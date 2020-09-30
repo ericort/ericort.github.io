@@ -492,6 +492,7 @@ button.bg-primary:focus {
 
 .addsub-container .masthead {
     height: 650px;
+    padding-top: calc(2rem + 74px);
 }
 
 .addsub-container .addsub-pic-intro {
@@ -510,10 +511,12 @@ button.bg-primary:focus {
 
 @keyframes animateAddSubIntro {
     from {
+        top: 40px;
         opacity: 0;
     }
     to {
         opacity: 1;
+        top: 0px;
     }
 }
 
@@ -556,9 +559,11 @@ button.bg-primary:focus {
 
 @keyframes animateAddSubQR {
     from {
+        top: -40px;
         opacity: 0;
     }
     to {
+        top: 0px;
         opacity: 1;
     }
 }
@@ -577,7 +582,7 @@ button.bg-primary:focus {
 
 @keyframes animateredcar {
     from {
-        left: 300px;
+        left: 500px;
         opacity: 1;
     }
     to {
