@@ -491,8 +491,8 @@ button.bg-primary:focus {
 }
 
 .addsub-container .masthead {
-    height: 650px;
-    padding-top: calc(3rem + 74px);
+    height: 624px;
+    padding-top: calc(2rem + 74px);
 }
 
 .addsub-container .addsub-pic-intro {
@@ -572,7 +572,7 @@ button.bg-primary:focus {
     position: absolute;
     top: 0px;
     right: 20px;
-    top: 260px;
+    top: 256px;
     width: 180px;
     animation-name: animateredcar;
     animation-duration: 4s;
@@ -652,6 +652,10 @@ button.bg-primary:focus {
 @media (min-width: 576px) {
     .portfolio h3 {
         font-size: 1.25em;
+    }
+    .addsub-container .masthead {
+        height: 650px;
+        padding-top: calc(3rem + 74px);
     }
     .portfolio .air-pic,
     .air-container .air-pic {
