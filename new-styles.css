@@ -492,7 +492,7 @@ button.bg-primary:focus {
 
 .addsub-container .masthead {
     height: 650px;
-    padding-top: calc(2rem + 74px);
+    padding-top: calc(3rem + 74px);
 }
 
 .addsub-container .addsub-pic-intro {
