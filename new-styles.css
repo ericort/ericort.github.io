@@ -506,7 +506,7 @@ button.bg-primary:focus {
     animation-duration: 2s;
     animation-delay: 2s;
     animation-fill-mode: both;
-    box-shadow: 0 1px 3px #aaa;
+    box-shadow: 0 0 2px #aaa;
 }
 
 @keyframes animateAddSubIntro {
@@ -531,7 +531,7 @@ button.bg-primary:focus {
     animation-duration: 2s;
     animation-delay: 2s;
     animation-fill-mode: both;
-    box-shadow: 0 1px 3px #aaa;
+    box-shadow: 0 0 2px #aaa;
 }
 
 @keyframes animateAddSubChat {
@@ -554,7 +554,7 @@ button.bg-primary:focus {
     animation-duration: 2s;
     animation-delay: 2s;
     animation-fill-mode: both;
-    box-shadow: 0 1px 3px #aaa;
+    box-shadow: 0 0 2px #aaa;
 }
 
 @keyframes animateAddSubQR {
