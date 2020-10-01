@@ -484,7 +484,7 @@ button.bg-primary:focus {
         opacity: 0;
     }
     to {
-        left: 30px;
+        left: 20px;
         opacity: 1;
     }
 }
@@ -515,7 +515,7 @@ button.bg-primary:focus {
 .shield {
     position: absolute;
     top: 120px;
-    left: 270px;
+    left: 254px;
     width: 80px;
     animation-name: animateshield;
     animation-duration: 1s;
