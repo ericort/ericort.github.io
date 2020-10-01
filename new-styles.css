@@ -512,6 +512,26 @@ button.bg-primary:focus {
     }
 }
 
+.shield {
+    position: absolute;
+    top: 120px;
+    left: 270px;
+    width: 80px;
+    animation-name: animateshield;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-fill-mode: both;
+}
+
+@keyframes animateshield {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .addsub-container .masthead {
     height: 624px;
     padding-top: calc(2rem + 74px);
@@ -528,7 +548,7 @@ button.bg-primary:focus {
     animation-duration: 2s;
     animation-delay: 2s;
     animation-fill-mode: both;
-    box-shadow: 0 0 2px #aaa;
+    box-shadow: 0 2px 4px #aaa;
 }
 
 @keyframes animateAddSubIntro {
@@ -553,7 +573,7 @@ button.bg-primary:focus {
     animation-duration: 2s;
     animation-delay: 2s;
     animation-fill-mode: both;
-    box-shadow: 0 0 2px #aaa;
+    box-shadow: 0 2px 4px #aaa;
 }
 
 @keyframes animateAddSubChat {
@@ -576,7 +596,7 @@ button.bg-primary:focus {
     animation-duration: 2s;
     animation-delay: 2s;
     animation-fill-mode: both;
-    box-shadow: 0 0 2px #aaa;
+    box-shadow: 0 2px 4px #aaa;
 }
 
 @keyframes animateAddSubQR {
@@ -692,6 +712,11 @@ button.bg-primary:focus {
         border-radius: 15px;
         top: 60px;
     }
+    .shield {
+        top: 148px;
+        left: 348px;
+        width: 110px;
+    }
     .air-container .masthead {
         height: 615px;
     }
@@ -718,6 +743,11 @@ button.bg-primary:focus {
         border: 6px solid #333;
         border-radius: 20px;
         top: 80px;
+    }
+    .shield {
+        top: 186px;
+        left: 430px;
+        width: 130px;
     }
     .hero-pic {
         width: 525px;
