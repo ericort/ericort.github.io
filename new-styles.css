@@ -79,7 +79,7 @@ h5 {
 }
 
 .logo-img {
-    height: 21px;
+    height: 26px;
     margin: 0 0 .21rem .8rem;
 }
 
@@ -358,9 +358,16 @@ button.bg-primary:focus {
     color: #07889B;
 }
 
+#mainNav .navbar-nav li.nav-item.last {
+    padding-left: 1em;
+}
+
+
+/*
 #mainNav ul {
     padding: 0 0 0 2.7rem;
 }
+*/
 
 .masthead {
     overflow: hidden;
@@ -371,6 +378,7 @@ button.bg-primary:focus {
 .masthead .masthead-heading {
     font-size: 2em;
     font-weight: 600;
+    line-height: 3.5rem;
 }
 
 .masthead .masthead-subheading strong {
@@ -808,7 +816,7 @@ button.bg-primary:focus {
         font-size: 1.25rem;
     }
     #mainNav.navbar-shrink .logo-img {
-        height: 21px;
+        height: 26px;
         margin: 0 0 4px 0;
         transition: height 0.3s;
     }
@@ -818,13 +826,17 @@ button.bg-primary:focus {
     }
     .masthead .masthead-heading {
         font-size: 2.5em;
+        line-height: 4.5rem;
     }
     .logo-img {
-        height: 25px;
+        height: 40px;
         margin: 0 0 4px 0;
     }
     .air-container .masthead {
         height: 700px;
+    }
+    #mainNav .navbar-nav li.nav-item.last {
+        padding-left: 0;
     }
 }
 
