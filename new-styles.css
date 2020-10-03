@@ -476,6 +476,14 @@ button.bg-primary:focus {
     border-bottom: 0.05rem solid #e0dfdb !important;
 }
 
+.dark-orange {
+    color: #f26b01;
+}
+
+.light-orange {
+    color: #f7a768;
+}
+
 
 /*****************
 *** ANIMATIONS ***
