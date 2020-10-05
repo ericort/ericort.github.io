@@ -9,6 +9,7 @@ body {
     letter-spacing: 0.005em;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1.25rem;
+    font-weight: 300;
 }
 
 a {
@@ -17,8 +18,6 @@ a {
 
 strong {
     font-weight: 600;
-    color: #3e3e3e;
-    font-size: 1.35rem;
 }
 
 a:hover {
@@ -49,14 +48,16 @@ h1 {
 
 h2,
 .h2 {
-    font-family: "Source Serif Pro", serif;
-    font-size: 2.25rem;
+    /*font-family: "Source Serif Pro", serif;*/
+    font-size: 2rem;
+    letter-spacing: 3px;
+    color: #808080;
 }
 
-h5 {
-    font-size: larger;
-    font-weight: 700;
-    margin-top: 3rem;
+h4,
+.h4 {
+    /*font-size: 1.75rem;*/
+    font-weight: 300;
 }
 
 .header-text {
@@ -255,11 +256,11 @@ button.bg-primary:focus {
 }
 
 .air-container .bg-secondary {
-    background-color: #dbfbf6 !important;
+    background-color: #e7fdfa !important;
 }
 
 .addsub-container .bg-secondary {
-    background-color: #fddec8 !important;
+    background-color: #ffeadc !important;
 }
 
 .bg-tertiary {
@@ -383,10 +384,12 @@ button.bg-primary:focus {
     line-height: 3.5rem;
 }
 
+
+/*
 .masthead .masthead-subheading strong {
-    font-weight: 600;
-    color: #38404F;
+    font-size: calc(100% + .1rem);
 }
+*/
 
 .masthead .masthead-avatar,
 .about-avatar {
@@ -423,8 +426,9 @@ button.bg-primary:focus {
     font-weight: 600;
 }
 
-.portfolio h3 {
-    font-size: 1.2em;
+h3,
+.h3 {
+    font-size: 1.25em;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -688,24 +692,6 @@ button.bg-primary:focus {
     margin: auto;
 }
 
-.sec-quote {
-    background-color: #002A3B;
-}
-
-.sec-problem {
-    background-color: #002A3B;
-    color: #fff;
-}
-
-.sec-problem h3 {
-    font-size: 2.5rem;
-    color: #b8b8b8;
-}
-
-.sec-problem .container {
-    font-size: 1.25rem;
-}
-
 
 /***************
 ****************
@@ -717,9 +703,6 @@ button.bg-primary:focus {
 /***** 576 *****/
 
 @media (min-width: 576px) {
-    .portfolio h3 {
-        font-size: 1.25em;
-    }
     .addsub-container .masthead {
         height: 650px;
         padding-top: calc(3rem + 74px);
