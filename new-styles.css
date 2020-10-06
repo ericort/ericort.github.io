@@ -375,13 +375,6 @@ button.bg-primary:focus {
     padding-left: 1em;
 }
 
-
-/*
-#mainNav ul {
-    padding: 0 0 0 2.7rem;
-}
-*/
-
 .masthead {
     overflow: hidden;
     padding-top: calc(3rem + 74px);
@@ -391,15 +384,12 @@ button.bg-primary:focus {
 .masthead .masthead-heading {
     font-size: 2em;
     font-weight: 700;
-    line-height: 3.5rem;
+    line-height: 100%;
 }
 
-
-/*
-.masthead .masthead-subheading strong {
-    font-size: calc(100% + .1rem);
+.masthead .masthead-subheading {
+    font-size: 1.25rem;
 }
-*/
 
 .masthead .masthead-avatar,
 .about-avatar {
@@ -454,6 +444,11 @@ h3,
     color: #07889B;
 }
 
+.portfolio h3,
+.portfolio .h3 {
+    font-size: 2rem;
+}
+
 .floating-label-form-group-with-focus label {
     color: #07889B;
 }
@@ -498,15 +493,23 @@ h3,
     color: #f7a768;
 }
 
-.lead-text {
+.lead-text,
+.name-top {
     letter-spacing: 4px;
-    color: #f26b01;
     font-weight: 700;
+}
+
+.name-top {
+    color: #808080;
+}
+
+.lead-text {
+    color: #f26b01;
 }
 
 .name-top a,
 .name-top a:hover {
-    color: #f26b01;
+    color: #808080;
     text-decoration: none;
 }
 
@@ -517,6 +520,17 @@ h3,
 #mainNav.navbar-shrink .name-top {
     transition: display 0.3s;
     display: block;
+}
+
+.tag {
+    width: fit-content;
+    padding: 1px 12px;
+    border: 0.05rem solid #e0dfdb !important;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: #fff;
+    margin-top: .3rem;
 }
 
 
@@ -764,6 +778,19 @@ h3,
 /***** 768 *****/
 
 @media (min-width: 768px) {
+    .masthead {
+        padding-top: calc(6rem + 74px);
+        padding-bottom: 10rem;
+    }
+    .masthead .masthead-heading {
+        font-size: 3em;
+    }
+    .masthead .masthead-subheading {
+        font-size: 1.5rem;
+    }
+    .lead-text {
+        font-size: 1.5rem;
+    }
     .portfolio .air-pic,
     .air-container .air-pic {
         width: 500px;
@@ -840,14 +867,6 @@ h3,
         margin: 0 0 4px 0;
         transition: height 0.3s;
     }
-    .masthead {
-        padding-top: calc(6rem + 74px);
-        padding-bottom: 6rem;
-    }
-    .masthead .masthead-heading {
-        font-size: 2.5em;
-        line-height: 4.5rem;
-    }
     .logo-img {
         height: 40px;
         margin: 0 0 4px 0;
@@ -857,6 +876,10 @@ h3,
     }
     #mainNav .navbar-nav li.nav-item.last {
         padding-left: 0;
+    }
+    .place-bottom {
+        position: absolute;
+        bottom: 0;
     }
 }
 
