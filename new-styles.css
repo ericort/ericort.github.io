@@ -55,11 +55,11 @@ h2,
 }
 
 .h2-topper {
-    margin-bottom: 4px;
+    margin-bottom: 1rem;
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 3px;
-    background-color: #f7a768;
+    background-color: #f26b01;
     height: 5px;
 }
 
@@ -502,6 +502,12 @@ h3,
     letter-spacing: 4px;
     color: #f26b01;
     font-weight: 700;
+}
+
+.name-top a,
+.name-top a:hover {
+    color: #f26b01;
+    text-decoration: none;
 }
 
 .name-top {
