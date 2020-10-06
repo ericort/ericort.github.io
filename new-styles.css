@@ -509,6 +509,7 @@ h3,
 }
 
 #mainNav.navbar-shrink .name-top {
+    transition: display 0.3s;
     display: block;
 }
 

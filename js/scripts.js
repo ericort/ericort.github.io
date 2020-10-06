@@ -42,8 +42,12 @@
     });
 
     // Collapse Navbar
+    var scroll_amt = document.getElementById('scrolldist')
+    var scroll_dist = scroll_amt.getAttribute("data-scroll")
+
+
     var navbarCollapse = function() {
-        if ($("#mainNav").offset().top > 550) {
+        if ($("#mainNav").offset().top > scroll_dist) {
             $("#mainNav").addClass("navbar-shrink");
         } else {
             $("#mainNav").removeClass("navbar-shrink");
