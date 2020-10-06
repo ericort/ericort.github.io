@@ -93,7 +93,7 @@ h4,
 
 .logo-img {
     height: 26px;
-    margin: 0 0 0 .8rem;
+    margin: 0 0 .21rem .8rem;
 }
 
 .btn-primary {
@@ -864,12 +864,10 @@ h3,
     }
     #mainNav.navbar-shrink .logo-img {
         height: 26px;
-        margin: 0;
         transition: height 0.3s;
     }
     .logo-img {
         height: 40px;
-        margin: 0;
     }
     .air-container .masthead {
         height: 700px;
