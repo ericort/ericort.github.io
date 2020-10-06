@@ -877,10 +877,6 @@ h3,
     #mainNav .navbar-nav li.nav-item.last {
         padding-left: 0;
     }
-    .place-bottom {
-        position: absolute;
-        bottom: 0;
-    }
 }
 
 
