@@ -504,6 +504,14 @@ h3,
     font-weight: 700;
 }
 
+.name-top {
+    display: none;
+}
+
+#mainNav.navbar-shrink .name-top {
+    display: block;
+}
+
 
 /*****************
 *** ANIMATIONS ***
@@ -815,7 +823,7 @@ h3,
     #mainNav.navbar-shrink {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25rem;
