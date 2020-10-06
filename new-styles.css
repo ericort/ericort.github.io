@@ -526,7 +526,7 @@ h3,
     width: fit-content;
     padding: 1px 12px;
     border: 0.05rem solid #e0dfdb !important;
-    border-radius: 8px;
+    border-radius: .5rem;
     font-size: 1rem;
     font-weight: 300;
     background-color: #fff;
