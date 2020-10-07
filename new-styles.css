@@ -376,9 +376,8 @@ button.bg-primary:focus {
 }
 
 .masthead {
-    overflow: hidden;
-    padding-top: calc(3rem + 74px);
-    padding-bottom: 6rem;
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 10rem;
 }
 
 .masthead .masthead-heading {
@@ -778,10 +777,6 @@ h3,
 /***** 768 *****/
 
 @media (min-width: 768px) {
-    .masthead {
-        padding-top: calc(6rem + 74px);
-        padding-bottom: 10rem;
-    }
     .masthead .masthead-heading {
         font-size: 3em;
     }
