@@ -474,7 +474,7 @@ h3,
 
 .zoom:hover {
     /*border: .05rem solid #07889B;*/
-    border-radius: .5rem;
+    /*border-radius: .5rem;*/
     transform: scale(1.03);
 }
 
@@ -525,8 +525,8 @@ h3,
     width: fit-content;
     padding: 1px 12px;
     border: 0.05rem solid #e0dfdb !important;
-    border-radius: .5rem;
-    font-size: 1.1rem;
+    border-radius: .3rem;
+    font-size: 1rem;
     font-weight: 300;
     color: #000;
     background-color: #fff;
