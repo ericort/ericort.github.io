@@ -343,6 +343,8 @@ button.bg-primary:focus {
 #mainNav {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 600;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 #mainNav .navbar-brand {
@@ -742,6 +744,10 @@ h3,
 /***** 576 *****/
 
 @media (min-width: 576px) {
+    #mainNav {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
     .addsub-container .masthead {
         height: 650px;
         padding-top: calc(3rem + 74px);
