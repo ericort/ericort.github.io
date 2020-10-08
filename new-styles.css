@@ -49,18 +49,17 @@ h1 {
 h2,
 .h2 {
     /*font-family: "Source Serif Pro", serif;*/
-    font-size: 2rem;
+    font-size: 1rem;
     letter-spacing: 3px;
     color: #808080;
+    padding-left: .2rem;
 }
 
 .h2-topper {
     margin-bottom: .5rem;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 3px;
+    padding: 0 0 .2em 0;
     background-color: #f26b01;
-    height: 5px;
+    width: 2.7em;
 }
 
 h4,
@@ -477,7 +476,7 @@ h3,
 .zoom:hover {
     /*border: .05rem solid #07889B;*/
     /*border-radius: .5rem;*/
-    transform: scale(1.03);
+    transform: scale(1.04);
 }
 
 #mainNav.navbar-shrink {
