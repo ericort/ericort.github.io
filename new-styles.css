@@ -241,6 +241,10 @@ a.badge-primary:focus {
     background-color: #07889B !important;
 }
 
+.bg-clear {
+    background-color: transparent !important;
+}
+
 .bg-primary {
     background-color: #f5f4f0 !important;
 }
