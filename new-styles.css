@@ -250,7 +250,7 @@ a.badge-primary:focus {
 }
 
 .bg-llgray {
-    background-color: #f7f7f7;
+    background-color: #f2f2f2;
 }
 
 a.bg-primary:hover,
@@ -262,6 +262,10 @@ button.bg-primary:focus {
 
 .bg-secondary {
     background-color: #f5f4f0 !important;
+}
+
+.home-container .bg-secondary {
+    background-color: transparent !important;
 }
 
 .air-container .bg-secondary {
@@ -408,7 +412,7 @@ button.bg-primary:focus {
 }
 
 .photo-main {
-    border: 18px solid #efefef;
+    border: 18px solid #e2e2e2;
     position: relative;
     height: 236px;
     width: 236px;
@@ -465,6 +469,7 @@ h3,
 
 .thumb {
     border: 0.05rem solid #e0dfdb !important;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
 }
 
 .zoom {
@@ -482,7 +487,7 @@ h3,
 #mainNav.navbar-shrink {
     background-color: #fff !important;
     transition: background-color 0.3s;
-    border-bottom: 0.05rem solid #e0dfdb !important;
+    /*border-bottom: 0.05rem solid #e0dfdb !important;*/
 }
 
 .dark-orange {
@@ -530,7 +535,7 @@ h3,
     font-size: 1rem;
     font-weight: 300;
     color: #000;
-    background-color: #fff;
+    background-color: #f2f2f2;
     margin-top: .3rem;
 }
 
@@ -746,6 +751,9 @@ h3,
     #mainNav {
         padding-top: 1rem;
         padding-bottom: 1rem;
+    }
+    .thumb {
+        border-radius: 0.25rem !important;
     }
     .addsub-container .masthead {
         height: 650px;
