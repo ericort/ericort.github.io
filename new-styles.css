@@ -9,7 +9,7 @@ body {
     letter-spacing: 0.005em;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1.25rem;
-    /*font-weight: 300;*/
+    font-weight: 300;
 }
 
 a {
@@ -277,7 +277,7 @@ button.bg-primary:focus {
 }
 
 .addsub-container .bg-secondary {
-    background-color: #ffeadc !important;
+    background-color: #f7dbc6 !important;
 }
 
 .bg-tertiary {
@@ -630,7 +630,8 @@ h3,
     animation-duration: 2s;
     animation-delay: 2s;
     animation-fill-mode: both;
-    box-shadow: 0 2px 4px #aaa;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
+    /*box-shadow: 0 2px 4px #aaa;*/
 }
 
 @keyframes animateAddSubIntro {
@@ -655,7 +656,8 @@ h3,
     animation-duration: 2s;
     animation-delay: 2s;
     animation-fill-mode: both;
-    box-shadow: 0 2px 4px #aaa;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
+    /*box-shadow: 0 2px 4px #aaa;*/
 }
 
 @keyframes animateAddSubChat {
@@ -678,7 +680,8 @@ h3,
     animation-duration: 2s;
     animation-delay: 2s;
     animation-fill-mode: both;
-    box-shadow: 0 2px 4px #aaa;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
+    /*box-shadow: 0 2px 4px #aaa;*/
 }
 
 @keyframes animateAddSubQR {
@@ -727,12 +730,14 @@ h3,
 .air-container .air-pic {
     position: absolute;
     width: 300px;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
 }
 
 .air-container .air-pic-mobile {
     position: absolute;
     width: 75px;
     top: 54px;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
 }
 
 .hero-pic {
