@@ -18,7 +18,7 @@ a {
 
 strong {
     font-weight: 600;
-    color: #555;
+    /*color: #555;*/
 }
 
 a:hover {
@@ -262,6 +262,14 @@ a.badge-primary:focus {
     background-color: #d1e4e2;
 }
 
+.bg-dblue {
+    background-color: #002A3B;
+}
+
+.bg-lorange {
+    background-color: #ffece0;
+}
+
 a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
@@ -456,6 +464,11 @@ button.bg-primary:focus {
 h3,
 .h3 {
     font-size: 1.25em;
+}
+
+.milestone {
+    font-family: "Source Serif Pro", serif;
+    font-size: 2rem;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
