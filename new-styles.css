@@ -592,6 +592,15 @@ h3,
     background-color: #00899e;
 }
 
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: .9rem;
+    font-weight: 400;
+    color: #000;
+}
+
 
 /*****************
 *** ANIMATIONS ***
