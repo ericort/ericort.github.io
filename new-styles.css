@@ -5,7 +5,7 @@
 
 body {
     /*font-size: 1.25rem;*/
-    line-height: 1.75;
+    line-height: 1.55;
     letter-spacing: 0.005em;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1.25rem;
@@ -68,6 +68,7 @@ h4,
     /*font-size: 1.75rem;*/
     font-size: 1.25rem;
     font-weight: 600;
+    color: #888;
 }
 
 .header-text {
@@ -457,7 +458,7 @@ button.bg-primary:focus {
     font-size: 1.25rem;
 }
 
-.portfolio a {
+a {
     font-weight: 600;
 }
 
@@ -577,6 +578,18 @@ h3,
 
 .shadowy {
     box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300899e' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300899e' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators li {
+    background-color: #00899e;
 }
 
 
