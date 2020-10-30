@@ -607,8 +607,8 @@ h3,
     border-radius: 15px;
     left: 30px;
     animation-name: animateair;
-    animation-duration: 2s;
-    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-delay: .5s;
     animation-fill-mode: both;
 }
 
@@ -631,8 +631,8 @@ h3,
     border: 4px solid #333;
     border-radius: 15px;
     animation-name: animateairmobile;
-    animation-duration: 2s;
-    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-delay: 0s;
     animation-fill-mode: both;
     box-shadow: 0 1px 3px #aaa;
 }
@@ -653,7 +653,7 @@ h3,
     width: 80px;
     animation-name: animateshield;
     animation-duration: 1s;
-    animation-delay: 5s;
+    animation-delay: 1s;
     animation-fill-mode: both;
 }
 
@@ -677,8 +677,8 @@ h3,
     left: 0px;
     width: 104px;
     animation-name: animateAddSubIntro;
-    animation-duration: 2s;
-    animation-delay: 2s;
+    animation-duration: 1.5s;
+    animation-delay: .5s;
     animation-fill-mode: both;
     box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
 }
@@ -700,8 +700,8 @@ h3,
     left: 114px;
     width: 105px;
     animation-name: animateAddSubChat;
-    animation-duration: 2s;
-    animation-delay: 2s;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
     animation-fill-mode: both;
     box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
     /*box-shadow: 0 2px 4px #aaa;*/
@@ -722,8 +722,8 @@ h3,
     right: 0px;
     width: 104px;
     animation-name: animateAddSubQR;
-    animation-duration: 2s;
-    animation-delay: 2s;
+    animation-duration: 1.5s;
+    animation-delay: .5s;
     animation-fill-mode: both;
     box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
 }
@@ -746,14 +746,14 @@ h3,
     top: 258px;
     width: 180px;
     animation-name: animateredcar;
-    animation-duration: 4s;
-    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-delay: .75s;
     animation-fill-mode: both;
 }
 
 @keyframes animateredcar {
     from {
-        left: 500px;
+        left: 1000px;
         opacity: 1;
     }
     to {
