@@ -4,7 +4,6 @@
 }
 
 body {
-    /*font-size: 1.25rem;*/
     line-height: 1.5;
     letter-spacing: 0.005em;
     font-family: "Source Sans Pro", sans-serif;
@@ -18,7 +17,6 @@ a {
 
 strong {
     font-weight: 600;
-    /*color: #555;*/
 }
 
 a:hover {
@@ -49,7 +47,6 @@ h1 {
 
 h2,
 .h2 {
-    /*font-family: "Source Serif Pro", serif;*/
     font-size: 1.25rem;
     letter-spacing: 3px;
     color: #808080;
@@ -65,7 +62,6 @@ h2,
 
 h4,
 .h4 {
-    /*font-size: 1.75rem;*/
     font-size: 1.25rem;
     font-weight: 600;
     color: #888;
@@ -287,8 +283,7 @@ button.bg-primary:focus {
 }
 
 .air-container .bg-secondary {
-    background-color: /*#e7fdfa*/
-    #eaf3f5 !important;
+    background-color: #eaf3f5 !important;
 }
 
 .addsub-container .bg-secondary {
@@ -359,7 +354,6 @@ button.bg-primary:focus {
 
 .divider-custom .divider-custom-line {
     background-color: #7C7B7B;
-    /* border-radius: 1rem;*/
 }
 
 .divider-custom.divider-light .divider-custom-line {
@@ -515,15 +509,12 @@ h3,
 }
 
 .zoom:hover {
-    /*border: .05rem solid #07889B;*/
-    /*border-radius: .5rem;*/
     transform: scale(1.04);
 }
 
 #mainNav.navbar-shrink {
     background-color: #fff !important;
     transition: background-color 0.3s;
-    /*border-bottom: 0.05rem solid #e0dfdb !important;*/
 }
 
 .dark-orange {
@@ -685,14 +676,11 @@ h3,
     top: 0px;
     left: 0px;
     width: 104px;
-    /* border: 4px solid #fff;
-    border-radius: 15px;*/
     animation-name: animateAddSubIntro;
     animation-duration: 2s;
     animation-delay: 2s;
     animation-fill-mode: both;
     box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
-    /*box-shadow: 0 2px 4px #aaa;*/
 }
 
 @keyframes animateAddSubIntro {
@@ -711,8 +699,6 @@ h3,
     top: 0px;
     left: 114px;
     width: 105px;
-    /*border: 4px solid #fff;
-    border-radius: 15px;*/
     animation-name: animateAddSubChat;
     animation-duration: 2s;
     animation-delay: 2s;
@@ -735,14 +721,11 @@ h3,
     top: 0px;
     right: 0px;
     width: 104px;
-    /*border: 4px solid #fff;
-    border-radius: 15px;*/
     animation-name: animateAddSubQR;
     animation-duration: 2s;
     animation-delay: 2s;
     animation-fill-mode: both;
     box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
-    /*box-shadow: 0 2px 4px #aaa;*/
 }
 
 @keyframes animateAddSubQR {
@@ -971,7 +954,4 @@ h3,
         border-radius: 20px;
         top: 80px;
     }
-    /*.portfolio .air-wrapper {
-        height: 300px;
-    }*/
 }
