@@ -8,7 +8,8 @@ body {
     letter-spacing: 0.005em;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 400;
+    color: #444444
 }
 
 a {
@@ -17,6 +18,7 @@ a {
 
 strong {
     font-weight: 600;
+    color: #222;
 }
 
 a:hover {
@@ -414,6 +416,8 @@ button.bg-primary:focus {
 
 .masthead .masthead-subheading {
     font-size: 1.25rem;
+    font-weight: 300;
+    color: #000;
 }
 
 .masthead .masthead-avatar,
@@ -593,6 +597,41 @@ h3,
 
 .results {
     line-height: 1;
+}
+
+.audit ol {
+    max-width: 350px;
+    counter-reset: my-awesome-counter;
+    list-style: none;
+    padding-left: 40px;
+}
+
+.audit ol li {
+    margin: 0 0 0.5rem 0;
+    counter-increment: my-awesome-counter;
+    position: relative;
+}
+
+.audit ol li::before {
+    content: counter(my-awesome-counter);
+    color: #f26522;
+    font-size: 1.25rem;
+    font-weight: 400;
+    position: absolute;
+    --size: 32px;
+    left: calc(-1 * var(--size) - 10px);
+    line-height: var(--size);
+    width: var(--size);
+    height: var(--size);
+    top: 0;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 1px 1px 0 #ddd;
+}
+
+div#preload {
+    display: none;
 }
 
 
@@ -848,7 +887,7 @@ h3,
         font-size: 3em;
     }
     .masthead .masthead-subheading {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
     }
     .lead-text {
         font-size: 1.5rem;
