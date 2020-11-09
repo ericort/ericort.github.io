@@ -634,6 +634,14 @@ div#preload {
     display: none;
 }
 
+.scroll-to-top a {
+    background-color: rgb(58 153 171 / 50%);
+}
+
+.rounder {
+    border-radius: 2rem !important;
+}
+
 
 /*****************
 *** ANIMATIONS ***
@@ -845,7 +853,7 @@ div#preload {
         padding-bottom: 1rem;
     }
     .thumb {
-        border-radius: 0.25rem !important;
+        border-radius: 0.5rem !important;
     }
     .addsub-container .masthead {
         height: 650px;
