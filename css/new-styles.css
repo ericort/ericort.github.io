@@ -267,6 +267,10 @@ a.badge-primary:focus {
     background-color: #d1e4e2;
 }
 
+.bg-llblue {
+    background-color: #e7f3f5;
+}
+
 .bg-dblue {
     background-color: #002A3B;
 }
@@ -620,17 +624,17 @@ h3,
 
 .audit ol li::before {
     content: counter(my-awesome-counter);
-    color: #f26522;
-    font-size: 1.25rem;
+    color: #fff;
+    font-size: 1rem;
     font-weight: 400;
     position: absolute;
-    --size: 32px;
+    --size: 24px;
     left: calc(-1 * var(--size) - 10px);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
     top: 0;
-    background: #fff;
+    background: #f26522;
     border-radius: 50%;
     text-align: center;
     box-shadow: 1px 1px 0 #ddd;
