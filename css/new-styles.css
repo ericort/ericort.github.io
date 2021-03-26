@@ -545,17 +545,14 @@ h3,
     font-weight: 700;
 }
 
-.name-top {
-    color: #808080;
-}
-
 .lead-text {
     color: #f26b01;
 }
 
 .name-top a,
 .name-top a:hover {
-    color: #808080;
+    font-weight: 700;
+    color: #f26b01;
     text-decoration: none;
 }
 
