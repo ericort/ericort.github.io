@@ -620,7 +620,7 @@ h3,
 
 .audit ol li::before {
     content: counter(my-awesome-counter);
-    color: #f26522;
+    color: #38889b;
     font-size: 1.25rem;
     font-weight: 400;
     position: absolute;

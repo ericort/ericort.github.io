@@ -95,6 +95,11 @@ h4,
     margin: 0 0 .21rem .8rem;
 }
 
+.bottom .logo-img {
+    height: 16px;
+    margin: 0 0 .21rem .8rem;
+}
+
 .btn-primary {
     color: #fff;
     background-color: #07889B;
@@ -631,7 +636,7 @@ h3,
     width: var(--size);
     height: var(--size);
     top: 0;
-    background: #f26522;
+    background: #38889b;
     border-radius: 50%;
     text-align: center;
     box-shadow: 1px 1px 0 #ddd;
