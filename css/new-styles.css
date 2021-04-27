@@ -567,7 +567,7 @@ h3,
 
 #mainNav.navbar-shrink .name-top {
     transition: display 0.3s;
-    display: block;
+    display: inline-block;
 }
 
 .tag {
@@ -1006,22 +1006,5 @@ div#preload {
     }
     #mainNav .navbar-nav li.nav-item.last {
         padding-left: 0;
-    }
-}
-
-
-/***** 1200 *****/
-
-@media (min-width: 1200px) {
-    .portfolio .air-pic {
-        width: 500px;
-        border: 6px solid #333;
-        border-radius: 20px;
-    }
-    .portfolio .air-pic-mobile {
-        width: 125px;
-        border: 6px solid #333;
-        border-radius: 20px;
-        top: 80px;
     }
 }
