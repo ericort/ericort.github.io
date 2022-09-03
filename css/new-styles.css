@@ -1015,3 +1015,12 @@ div#preload {
         padding-left: 0;
     }
 }
+
+
+/***** 1200 *****/
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1440px;
+    }
+}
