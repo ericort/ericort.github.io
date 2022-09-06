@@ -731,6 +731,28 @@ div#preload {
     }
 }
 
+.bp-container .bp-pic-mobile {
+    top: 0px;
+    left: -90px;
+    width: 100px;
+    border: 4px solid #333;
+    border-radius: 15px;
+    animation-name: animateairmobile;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+    box-shadow: 0 1px 3px #aaa;
+}
+
+@keyframes animatebpmobile {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .shield {
     position: absolute;
     top: 120px;
@@ -743,6 +765,26 @@ div#preload {
 }
 
 @keyframes animateshield {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bulb {
+    position: absolute;
+    top: 120px;
+    left: 254px;
+    width: 80px;
+    animation-name: animatebulb;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes animatebulb {
     from {
         opacity: 0;
     }
@@ -782,6 +824,8 @@ div#preload {
     animation-duration: 1.5s;
     animation-delay: .5s;
     animation-fill-mode: both;
+    border: 4px solid #333;
+    border-radius: 15px;
     box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
 }
 
@@ -886,6 +930,13 @@ div#preload {
     box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
 }
 
+.bp-container .bp-pic-mobile {
+    position: absolute;
+    width: 75px;
+    top: 54px;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
+}
+
 .hero-pic {
     position: relative;
     width: 330px;
@@ -931,7 +982,18 @@ div#preload {
         border-radius: 15px;
         top: 60px;
     }
+    .bp-container .bp-pic-mobile {
+        width: 100px;
+        border: 4px solid #333;
+        border-radius: 15px;
+        top: 60px;
+    }
     .shield {
+        top: 148px;
+        left: 348px;
+        width: 110px;
+    }
+    .bulb {
         top: 148px;
         left: 348px;
         width: 110px;
@@ -972,7 +1034,18 @@ div#preload {
         border-radius: 20px;
         top: 80px;
     }
+    .bp-container .bp-pic-mobile {
+        width: 125px;
+        border: 6px solid #333;
+        border-radius: 20px;
+        top: 130px;
+    }
     .shield {
+        top: 186px;
+        left: 430px;
+        width: 130px;
+    }
+    .bulb {
         top: 186px;
         left: 430px;
         width: 130px;
@@ -1003,6 +1076,8 @@ div#preload {
     }
     .bp-container .bp-pic-intro {
         width: 524px;
+        border: 6px solid #333;
+        border-radius: 20px;
     }
     .bp-container .masthead {
         height: 665px;
