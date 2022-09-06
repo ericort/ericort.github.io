@@ -284,7 +284,15 @@ a.badge-primary:focus {
     background-color: #ffece0;
 }
 
-a.bg-primary:hover,
+.bg-borrowerportal {
+    background: #e9f0f3;
+}
+
+.bg-borrowerportal-main {
+    background: linear-gradient(to bottom, #e9f0f3 0%, #e9f0f3 80%, #C6DCAE 80%, #C6DCAE 100%);
+}
+
+bg-bpa.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
@@ -760,6 +768,23 @@ div#preload {
     box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
 }
 
+.bp-container .masthead {
+    height: 500px;
+    padding-top: calc(2rem + 74px);
+}
+
+.bp-container .bp-pic-intro {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 324px;
+    animation-name: animateAddSubIntro;
+    animation-duration: 1.5s;
+    animation-delay: .5s;
+    animation-fill-mode: both;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
+}
+
 @keyframes animateAddSubIntro {
     from {
         top: 40px;
@@ -889,6 +914,10 @@ div#preload {
         height: 650px;
         padding-top: calc(3rem + 74px);
     }
+    .bp-container .masthead {
+        height: 524px;
+        padding-top: calc(3rem + 74px);
+    }
     .portfolio .air-pic,
     .air-container .air-pic {
         width: 400px;
@@ -971,6 +1000,12 @@ div#preload {
     .addsub-container .addsub-pic-qr {
         width: 150px;
         right: 20px
+    }
+    .bp-container .bp-pic-intro {
+        width: 524px;
+    }
+    .bp-container .masthead {
+        height: 665px;
     }
 }
 
