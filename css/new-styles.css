@@ -688,6 +688,10 @@ div#preload {
     background-color: #056675;
 }
 
+.keep-together {
+    white-space: nowrap;
+}
+
 
 /*****************
 *** ANIMATIONS ***
