@@ -949,7 +949,13 @@ mark {
     background-color: none;
     background: linear-gradient(90deg, #f269011a 50%, rgba(255, 255, 255, 0) 50%);
     background-size: 200% 100%;
-    background-position: 100% 0;
+    background-position: 100%;
+    padding: 0 .05em 0 .2em;
+}
+
+.line-br::after {
+    content: "\a";
+    white-space: pre;
 }
 
 @-webkit-keyframes highlight {
