@@ -292,6 +292,14 @@ a.badge-primary:focus {
     background: linear-gradient(to bottom, #e9f0f3 0%, #e9f0f3 80%, #C6DCAE 80%, #C6DCAE 100%);
 }
 
+.bg-bettercare {
+    background: #efe7ff;
+}
+
+.bg-bettercare-main {
+    background: radial-gradient(circle farthest-corner at bottom center, #ec90ef 0%, #efe7ff 56%);
+}
+
 bg-bpa.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
