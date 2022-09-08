@@ -947,10 +947,9 @@ mark {
     -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
     animation: 1.5s highlight 1.5s 1 normal forwards;
     background-color: none;
-    background: linear-gradient(90deg, #C6F8F0 50%, rgba(255, 255, 255, 0) 50%);
+    background: linear-gradient(90deg, #f269011a 50%, rgba(255, 255, 255, 0) 50%);
     background-size: 200% 100%;
     background-position: 100% 0;
-    font-weight: 400;
 }
 
 @-webkit-keyframes highlight {
