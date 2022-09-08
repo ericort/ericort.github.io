@@ -1007,7 +1007,7 @@ mark {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 325px;
+    width: 346px;
     animation-name: animateBettercareIntro;
     animation-duration: 1.5s;
     animation-delay: .5s;
@@ -1185,7 +1185,7 @@ mark {
         margin: auto;
     }
     .bettercare-container .bettercare-pic-intro {
-        width: 680px;
+        width: 700px;
     }
     .bettercare-container .masthead {
         height: 665px;
