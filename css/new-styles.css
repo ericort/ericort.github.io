@@ -293,11 +293,11 @@ a.badge-primary:focus {
 }
 
 .bg-bettercare {
-    background: #efe7ff;
+    background: #ffeef6;
 }
 
 .bg-bettercare-main {
-    background: radial-gradient(circle farthest-corner at bottom center, #ec90ef 0%, #efe7ff 56%);
+    background: radial-gradient(circle farthest-corner at bottom center, #fad0fc 0%, #ffeef6 36%);
 }
 
 bg-bpa.bg-primary:hover,
@@ -688,7 +688,7 @@ div#preload {
     background-color: #056675;
 }
 
-.keep-together {
+.nowrap {
     white-space: nowrap;
 }
 
@@ -832,13 +832,24 @@ div#preload {
     top: 0px;
     left: 0px;
     width: 324px;
-    animation-name: animateAddSubIntro;
+    animation-name: animateBPIntro;
     animation-duration: 1.5s;
     animation-delay: .5s;
     animation-fill-mode: both;
     border: 4px solid #333;
     border-radius: 15px;
     box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
+}
+
+@keyframes animateBPIntro {
+    from {
+        top: 40px;
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        top: 0px;
+    }
 }
 
 @keyframes animateAddSubIntro {
@@ -983,6 +994,38 @@ mark {
 }
 
 
+/************************
+*** BetterCare Stuff ***
+************************/
+
+.bettercare-container .masthead {
+    height: 500px;
+    padding-top: calc(2rem + 74px);
+}
+
+.bettercare-container .bettercare-pic-intro {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 325px;
+    animation-name: animateBettercareIntro;
+    animation-duration: 1.5s;
+    animation-delay: .5s;
+    animation-fill-mode: both;
+}
+
+@keyframes animateBettercareIntro {
+    from {
+        top: 40px;
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+
 /***************
 ****************
  * MEDIA START *
@@ -1005,6 +1048,10 @@ mark {
         padding-top: calc(3rem + 74px);
     }
     .bp-container .masthead {
+        height: 524px;
+        padding-top: calc(3rem + 74px);
+    }
+    .bp-bettercare .masthead {
         height: 524px;
         padding-top: calc(3rem + 74px);
     }
@@ -1044,6 +1091,14 @@ mark {
         position: relative;
         width: 440px;
         margin: auto;
+    }
+    .bettercare-container .hero-pic {
+        position: relative;
+        width: 450px;
+        margin: auto;
+    }
+    .bettercare-container .bettercare-pic-intro {
+        width: 468px;
     }
 }
 
@@ -1092,6 +1147,9 @@ mark {
     .hero-pic {
         width: 525px;
     }
+    /*.bettercare-container .hero-pic {
+        width: 700px;
+    }*/
     .portfolio .air-wrapper {
         height: 338px;
     }
@@ -1119,6 +1177,17 @@ mark {
         border-radius: 20px;
     }
     .bp-container .masthead {
+        height: 665px;
+    }
+    .bettercare-container .hero-pic {
+        position: relative;
+        width: 680px;
+        margin: auto;
+    }
+    .bettercare-container .bettercare-pic-intro {
+        width: 680px;
+    }
+    .bettercare-container .masthead {
         height: 665px;
     }
 }
