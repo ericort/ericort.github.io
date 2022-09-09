@@ -752,28 +752,6 @@ div#preload {
     }
 }
 
-.bp-container .bp-pic-mobile {
-    top: 0px;
-    left: -90px;
-    width: 100px;
-    border: 4px solid #333;
-    border-radius: 15px;
-    animation-name: animateairmobile;
-    animation-duration: 1s;
-    animation-delay: 0s;
-    animation-fill-mode: both;
-    box-shadow: 0 1px 3px #aaa;
-}
-
-@keyframes animatebpmobile {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
 .shield {
     position: absolute;
     top: 120px;
@@ -829,47 +807,6 @@ div#preload {
     animation-delay: .5s;
     animation-fill-mode: both;
     box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
-}
-
-.bp-container .masthead {
-    height: 500px;
-    padding-top: calc(2rem + 74px);
-}
-
-.bp-container .bp-pic-intro {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 324px;
-    animation-name: animateBPIntro;
-    animation-duration: 1.5s;
-    animation-delay: .5s;
-    animation-fill-mode: both;
-    border: 4px solid #333;
-    border-radius: 15px;
-    box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
-}
-
-@keyframes animateBPIntro {
-    from {
-        top: 40px;
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-        top: 0px;
-    }
-}
-
-@keyframes animateAddSubIntro {
-    from {
-        top: 40px;
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-        top: 0px;
-    }
 }
 
 .addsub-container .addsub-pic-chat {
@@ -956,13 +893,6 @@ div#preload {
 }
 
 .air-container .air-pic-mobile {
-    position: absolute;
-    width: 75px;
-    top: 54px;
-    box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
-}
-
-.bp-container .bp-pic-mobile {
     position: absolute;
     width: 75px;
     top: 54px;
@@ -1056,6 +986,71 @@ mark {
 *** Borrower Portal Stuff ***
 ****************************/
 
+.bp-container .masthead {
+    height: 500px;
+    padding-top: calc(2rem + 74px);
+}
+
+.bp-container .bp-pic-intro {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 275px;
+    animation-name: animateBPIntro;
+    animation-duration: 1.5s;
+    animation-delay: .5s;
+    animation-fill-mode: both;
+    border: 4px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
+}
+
+@keyframes animateBPIntro {
+    from {
+        top: 40px;
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+@keyframes animateAddSubIntro {
+    from {
+        top: 40px;
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+.bp-container .bp-pic-mobile {
+    position: absolute;
+    left: 256px;
+    width: 68px;
+    top: 62px;
+    border: 4px solid #fff;
+    border-radius: 15px;
+    animation-name: animateairmobile;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+    box-shadow: 0 1px 3px #aaa;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
+}
+
+@keyframes animatebpmobile {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .bp-container .lead-text {
     color: #096794;
 }
@@ -1102,12 +1097,20 @@ mark {
         border: 4px solid #333;
         border-radius: 15px;
         top: 60px;
+        left:
     }
-    .bp-container .bp-pic-mobile {
-        width: 100px;
-        border: 4px solid #333;
+    .bp-container .bp-pic-intro {
+        width: 360px;
+        border: 4px solid #fff;
         border-radius: 15px;
         top: 60px;
+    }
+    .bp-container .bp-pic-mobile {
+        width: 90px;
+        border: 4px solid #fff;
+        border-radius: 15px;
+        top: 72px;
+        left: 354px;
     }
     .shield {
         top: 148px;
@@ -1163,12 +1166,6 @@ mark {
         border-radius: 20px;
         top: 80px;
     }
-    .bp-container .bp-pic-mobile {
-        width: 125px;
-        border: 6px solid #333;
-        border-radius: 20px;
-        top: 130px;
-    }
     .shield {
         top: 186px;
         left: 430px;
@@ -1207,12 +1204,19 @@ mark {
         right: 20px
     }
     .bp-container .bp-pic-intro {
-        width: 524px;
-        border: 6px solid #333;
+        width: 455px;
+        border: 6px solid #fff;
         border-radius: 20px;
     }
     .bp-container .masthead {
         height: 665px;
+    }
+    .bp-container .bp-pic-mobile {
+        width: 103px;
+        border: 6px solid #fff;
+        border-radius: 20px;
+        top: 120px;
+        left: 418px;
     }
     .bettercare-container .hero-pic {
         position: relative;
