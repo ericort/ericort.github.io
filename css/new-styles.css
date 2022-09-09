@@ -523,6 +523,8 @@ h3,
 .portfolio h3,
 .portfolio .h3 {
     font-size: 1.75rem;
+    color: #585b61;
+    font-weight: 700;
 }
 
 .floating-label-form-group-with-focus label {
@@ -580,7 +582,7 @@ h3,
 .subhead-text {
     font-size: 1.1rem;
     letter-spacing: .1rem;
-    font-weight: 600;
+    font-weight: 700;
     color: #f26b01;
 }
 
@@ -1001,7 +1003,7 @@ mark {
 }
 
 .air-container .lead-text {
-    color: #1f5f97;
+    color: #01698F;
 }
 
 
