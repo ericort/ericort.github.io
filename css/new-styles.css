@@ -577,6 +577,13 @@ h3,
     color: #f26b01;
 }
 
+.subhead-text {
+    font-size: 1.1rem;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    color: #f26b01;
+}
+
 .name-top a,
 .name-top a:hover {
     font-weight: 700;
@@ -993,6 +1000,19 @@ mark {
     }
 }
 
+.air-container .lead-text {
+    color: #1f5f97;
+}
+
+
+/****************
+*** AIR Stuff ***
+*****************/
+
+.addsub-container .lead-text {
+    color: #016990;
+}
+
 
 /************************
 *** BetterCare Stuff ***
@@ -1001,6 +1021,10 @@ mark {
 .bettercare-container .masthead {
     height: 500px;
     padding-top: calc(2rem + 74px);
+}
+
+.bettercare-container .lead-text {
+    color: #8b348b;
 }
 
 .bettercare-container .bettercare-pic-intro {
@@ -1023,6 +1047,15 @@ mark {
         opacity: 1;
         top: 0px;
     }
+}
+
+
+/****************************
+*** Borrower Portal Stuff ***
+****************************/
+
+.bp-container .lead-text {
+    color: #096794;
 }
 
 
