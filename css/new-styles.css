@@ -955,6 +955,11 @@ mark {
     padding-top: calc(2rem + 74px);
 }
 
+.bettercare-container .h2-topper {
+    background-color: #d43475;
+}
+
+
 .bettercare-container .lead-text {
     color: #8b348b;
 }
