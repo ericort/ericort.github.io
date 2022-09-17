@@ -964,6 +964,15 @@ mark {
     color: #8b348b;
 }
 
+.bettercare-container .bg-solution {
+    color:#fff;
+    background: radial-gradient(101.3% 314.37% at 50% 50%,#7e4498 0,#3a2245 100%);
+}
+
+.bettercare-container .solution-head {
+    color:#fff;
+}
+
 .bettercare-container .bettercare-pic-intro {
     position: absolute;
     top: 0px;
