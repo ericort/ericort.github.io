@@ -1163,6 +1163,10 @@ mark {
         width: 440px;
         margin: auto;
     }
+    .bettercare-container .masthead {
+        height: 560px;
+        padding-top: calc(2rem + 74px);
+    }
     .bettercare-container .hero-pic {
         position: relative;
         width: 450px;
@@ -1260,7 +1264,7 @@ mark {
         width: 700px;
     }
     .bettercare-container .masthead {
-        height: 665px;
+        height: 740px;
     }
 }
 
