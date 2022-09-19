@@ -973,6 +973,25 @@ mark {
     color:#fff;
 }
 
+
+
+.bettercare-container .btn-outline-primary {
+    color: #fff;
+    border-color: #fff;
+}
+
+.bettercare-container .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.bettercare-container .btn-outline-primary:focus,
+.bettercare-container .btn-outline-primary.focus {
+    box-shadow: #fff;
+}
+
+
 .bettercare-container .bettercare-pic-intro {
     position: absolute;
     top: 0px;
